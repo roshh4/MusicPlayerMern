@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.result{
+  overflow-y: scroll;
+}
+
+.right{
+  height: 570px;
+  overflow: scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: 1px;
+}
+
+input {
+  margin: 5px;
+  width: 20%;
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  opacity: 50%;
+}
+
+/* Add styles for when the input is focused */
+input:focus {
+  border-color: #007bff; /* Change border color when focused */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow when focused */
+}
+.playlist-popup-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  z-index: 2;
+}
+
+.active {
+  display: flex; 
+}
+
+.playlist-popup-content {
+  /* background-color: #fff; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.close-popup {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #777;
+}
+
+/* .playlist-popup-content h3 {
+  margin-bottom: 10px;
+} */
+
+.playlist-popup-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.playlist-popup-content li {
+  cursor: pointer;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.playlist-popup-content li:hover {
+  background-color: #f5f5f5;
+}

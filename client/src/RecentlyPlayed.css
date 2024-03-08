@@ -1,0 +1,25 @@
+.recently-played-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px; 
+  }
+  
+  .recently-played-tile {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .recently-played-tile img {
+    width: 10%;
+    height: auto;
+    align-self: center;
+    
+  }
+  
+  .recently-played-tile p {
+    text-align: left;
+  }

@@ -1,0 +1,34 @@
+.song-table{
+    width: 1000px;
+    align-self: center;
+    padding: none;
+    margin: none;
+}
+.play {
+    width: 30px;
+    height: 30px; 
+    transition: transform 0.3s; 
+}
+  
+  .play:hover {
+    transform: scale(1.2); 
+  }
+
+.image{
+    width: 15%;
+}
+
+.name{
+    width:350px;
+}
+
+.artist{
+    width:100px;
+}
+
+.album{
+    width:200px;
+}
+.add1{
+    width: 100px;
+}

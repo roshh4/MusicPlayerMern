@@ -1,0 +1,192 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #090822;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, p{
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+}
+
+.sidebar {
+  width: 200px;
+  height: 575px;
+  background-color: #dbcece;
+  background: linear-gradient(to bottom, #090822, #2e2f35);
+  box-shadow: 0 4px 8px #00000033; 
+  }
+  .home{
+  width: 15%;
+}
+.homediv{
+  display: flex;
+}
+.homena{
+  margin-top:8px;
+  margin-left: 10px;
+}
+.line{
+  width: 200px;
+  height: 40px;
+}
+.favna{
+  margin-top:6px;
+  margin-left: 10px;
+}
+.crenew {
+margin-left: 60px;
+cursor: pointer;
+}
+
+.maincon{
+  margin-top: 100px;
+  
+}
+
+.playlist-creation {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 220px;
+  width: 100px;
+  height: 170px;
+  z-index: 999;
+}
+
+.playlist-creation h2 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.playlist-creation label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.playlist-creation input {
+  width: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  color: #2d2f3d;
+}
+
+.playlist-creation button {
+  background-color: #4c7daf;
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.playlist-creation button:hover {
+  background-color: #4c7daf;
+}
+
+.sidebar-link,
+.sidebar-link:hover {
+  margin-left: 20px;
+  display: block;
+  padding: 10px;
+  color: whitesmoke; 
+  cursor: pointer;
+  transition: color 0.3s ease; 
+}
+
+.sidebar-link:hover {
+  color: #007bff; 
+} Change color as needed
+
+.sidebar-text {
+  text-decoration: none;
+  color: inherit; 
+  cursor: pointer;
+}
+
+.playlist-display {
+  margin-top: 20px;
+  color: white;
+  align-content: center;
+}
+
+.playlist-display p{
+  display: flex;
+  flex-direction: column;
+  margin-right: 55px;
+}
+
+.playlist-display p a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff; 
+  font-size: 15px;
+  align-self: center;
+  padding: 5px;
+}
+
+.playlist-display p a:hover {
+  color: #007bff; 
+}
+
+.footer {
+  background-color: #000000;
+  align-self: center;
+  width: 100%;
+  text-align: center;
+}
+
+.footer img{
+  max-width: 50px;
+  border-radius: 2px;
+}
+
+.FootComp{
+  display: flex;
+  flex-direction: row;
+}
+
+.metadata{
+  width: 35%;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.meta{
+  margin-top: 14px;
+  margin-left: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.footname{
+  color: white;
+  font-size: 14px;
+}
+
+.footartist{
+  font-size: 12px;
+}
+
+audio {
+  width: 35%;
+  color: #12c0f9;
+  opacity: 25%;
+}
