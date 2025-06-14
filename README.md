@@ -15,19 +15,13 @@ A full-stack music player application built with the MERN stack (MongoDB, Expres
 
 ## Tech Stack
 
-### Frontend
-- React.js
-- React Router for navigation
-- Axios for API requests
-- AudioMotion Analyzer for visualizations
-- React Audio Player for music playback
+##MongoDB – Stores music, user, and playlist data.
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB with Mongoose
-- CORS for cross-origin requests
-- Bcrypt for security
+##Express.js – Handles backend routing and APIs.
+
+##React.js – Builds the interactive user interface.
+
+##Node.js – Runs the server and backend logic.
 
 ## Prerequisites
 
