@@ -13,6 +13,9 @@ A full-stack music player application built with the MERN stack (MongoDB, Expres
 - 🕒 Recently played tracking
 - 🎨 Modern and intuitive UI
 
+  
+![image](https://github.com/user-attachments/assets/fd045c1c-71fb-4e14-a24d-37b2bd70a80a)
+
 ## Tech Stack
 
 ##MongoDB – Stores music, user, and playlist data.
