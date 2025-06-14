@@ -28,16 +28,13 @@ app.get('/api/getAudioUrl/:songName', async (req, res) => {
   try {
     const { songName } = req.params;
     const songData = await Song.findOne({ name: songName });
-    console.log(songData);
 
     if (!songData) {
       console.log(`Song '${songName}' not found`);
       res.status(404).json({ error: 'Song not found' });
       return;
     }
-    console.log(songData.songURL);
     const audioUrl = `/audio/${songData.songURL}`;
-    console.log("Audio URL:", audioUrl);
     res.json({ audioUrl });
   } catch (error) {
     console.error('Error fetching audio URL from the "songs" collection:', error);
@@ -59,7 +56,6 @@ app.get('/api/getImageUrl/:songName', async (req, res) => {
     }
 
     const imageUrl = `/images/${songData.imageURL}`;
-    console.log("Image URL:", imageUrl);
     res.json({ imageUrl });
   } catch (error) {
     console.error('Error fetching image URL from the "songs" collection:', error);
