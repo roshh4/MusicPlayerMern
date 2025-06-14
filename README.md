@@ -4,14 +4,11 @@ A full-stack music player application built with the MERN stack (MongoDB, Expres
 
 ## Features
 
-- 🎵 Music playback with audio visualization
-- 📱 Responsive design for all devices
-- 🔍 Advanced search functionality
-- 📋 Playlist management
-- 💖 Like and favorite songs
-- 📂 Album organization
-- 🕒 Recently played tracking
-- 🎨 Modern and intuitive UI
+- Music playback
+- Playlist management
+- Like and favorite songs
+- Album organization
+- Recently played tracking
 
   
 ![image](https://github.com/user-attachments/assets/fd045c1c-71fb-4e14-a24d-37b2bd70a80a)
