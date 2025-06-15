@@ -34,8 +34,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
-cd FinalMusicPlayerMern
+git clone [[your-repository-url]](https://github.com/roshh4/MusicPlayerMern)
 ```
 
 2. Install server dependencies:
